@@ -9,6 +9,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── No-photo overrides ─────────────────────────────────────────────── */
+    .hero-grid { grid-template-columns: 1fr; max-width: 780px; min-height: auto; }
+    .hero-copy { padding-bottom: 0; }
+    .hero-stat-inline {
+      display: inline-flex; align-items: baseline; gap: 8px;
+      margin-top: 40px;
+      background: var(--ink); color: var(--paper);
+      padding: 16px 24px;
+    }
+    .hero-stat-inline .hero-stat-num { font-size: 40px; }
+    .hero-stat-inline .hero-stat-label { font-size: 12px; }
+    .service-card.no-img { grid-template-columns: 1fr; }
+    .service-card.is-accent.no-img { grid-template-columns: 1fr; }
+    .gallery-placeholder {
+      margin-top: 64px; padding: 64px 40px;
+      border: 1px solid var(--ink-10); text-align: center;
+      display: flex; flex-direction: column; align-items: center; gap: 16px;
+    }
+    .gallery-placeholder p { color: var(--ink-80); max-width: 44ch; margin: 0; font-size: 17px; line-height: 1.55; }
+    .wedding-grid { grid-template-columns: 1fr; }
+    .wedding-copy-full { max-width: 720px; }
+    .about-grid { grid-template-columns: 1fr; }
+    .about-copy-full { max-width: 720px; }
+  </style>
 </head>
 <body>
 
@@ -89,18 +114,9 @@
           </ul>
         </div>
 
-        <div class="hero-media">
-          <figure class="hero-figure-main">
-            <img src="images/bride-tiara.png" alt="Braut mit Tiara, Make-up und Hochsteckfrisur" />
-            <figcaption>
-              <span class="cap-num">No. 01</span>
-              <span class="cap-text">Braut · Sommer 2026</span>
-            </figcaption>
-          </figure>
-          <div class="hero-stat">
-            <div class="hero-stat-num">25<span>+</span></div>
-            <div class="hero-stat-label">Jahre<br>im Bezirk</div>
-          </div>
+        <div class="hero-stat hero-stat-inline">
+          <div class="hero-stat-num">25<span>+</span></div>
+          <div class="hero-stat-label">Jahre<br>im Bezirk</div>
         </div>
       </div>
 
@@ -154,19 +170,11 @@
       </header>
 
       <div class="service-grid">
-        <article class="service-card">
-          <div class="service-media">
-            <img src="images/blonde-curls.png" alt="Damen &amp; Styling" />
-          </div>
+        <article class="service-card no-img">
           <div class="service-body">
             <div class="service-num">01</div>
             <h3 class="service-title">Damen &amp; Styling</h3>
             <p class="service-de">Schnitt, Föhnstyling, Färben, Strähnen, Pflege.</p>
-            <ul class="service-points">
-              <li><span class="service-point-dot"></span>Damenschnitt ab €38</li>
-              <li><span class="service-point-dot"></span>Waschen + Föhnen ab €25</li>
-              <li><span class="service-point-dot"></span>Glanzbehandlung ab €30</li>
-            </ul>
             <button class="link-arrow book-trigger">
               Termin anfragen
               <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
@@ -176,19 +184,11 @@
           </div>
         </article>
 
-        <article class="service-card">
-          <div class="service-media">
-            <img src="images/team.png" alt="Herren" />
-          </div>
+        <article class="service-card no-img">
           <div class="service-body">
             <div class="service-num">02</div>
             <h3 class="service-title">Herren</h3>
             <p class="service-de">Klassischer Herrenschnitt, Bart, Trockenhaarschnitt.</p>
-            <ul class="service-points">
-              <li><span class="service-point-dot"></span>Herrenschnitt ab €22</li>
-              <li><span class="service-point-dot"></span>Bart trimmen ab €12</li>
-              <li><span class="service-point-dot"></span>Kinder bis 10 ab €15</li>
-            </ul>
             <button class="link-arrow book-trigger">
               Termin anfragen
               <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
@@ -198,19 +198,11 @@
           </div>
         </article>
 
-        <article class="service-card">
-          <div class="service-media">
-            <img src="images/red-lips-curls.png" alt="Beauty" />
-          </div>
+        <article class="service-card no-img">
           <div class="service-body">
             <div class="service-num">03</div>
             <h3 class="service-title">Beauty</h3>
             <p class="service-de">Brows, Lashes, Nails — gepflegt, nicht überzeichnet.</p>
-            <ul class="service-points">
-              <li><span class="service-point-dot"></span>Augenbrauen zupfen €15</li>
-              <li><span class="service-point-dot"></span>Wimpernlifting €55</li>
-              <li><span class="service-point-dot"></span>Maniküre ab €25</li>
-            </ul>
             <button class="link-arrow book-trigger">
               Termin anfragen
               <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
@@ -220,19 +212,11 @@
           </div>
         </article>
 
-        <article class="service-card is-accent">
-          <div class="service-media">
-            <img src="images/bridal-updo.png" alt="Hochzeit &amp; Events" />
-          </div>
+        <article class="service-card is-accent no-img">
           <div class="service-body">
             <div class="service-num">04</div>
             <h3 class="service-title">Hochzeit &amp; Events</h3>
             <p class="service-de">Brautstyling, Probetermin, Make-up und Frisur am großen Tag.</p>
-            <ul class="service-points">
-              <li><span class="service-point-dot"></span>Probestyling €70</li>
-              <li><span class="service-point-dot"></span>Brautstyling ab €180</li>
-              <li><span class="service-point-dot"></span>Mit Hausbesuch nach Absprache</li>
-            </ul>
             <button class="link-arrow book-trigger">
               Termin anfragen
               <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
@@ -260,76 +244,16 @@
         </p>
       </header>
 
-      <div class="gallery-grid">
-        <button class="gallery-tile gallery-tall" data-lb="0">
-          <img src="images/bride-tiara.png" alt="Braut · Tiara" loading="lazy" />
-          <span class="gallery-cap">
-            <span class="gallery-cap-num">01</span>
-            <span class="gallery-cap-label">Braut · Tiara</span>
-          </span>
-        </button>
-        <button class="gallery-tile gallery-wide" data-lb="1">
-          <img src="images/three-ponytails.png" alt="Event · Pferdeschwänze" loading="lazy" />
-          <span class="gallery-cap">
-            <span class="gallery-cap-num">02</span>
-            <span class="gallery-cap-label">Event · Pferdeschwänze</span>
-          </span>
-        </button>
-        <button class="gallery-tile gallery-tall" data-lb="2">
-          <img src="images/blonde-curls.png" alt="Styling · Wellen" loading="lazy" />
-          <span class="gallery-cap">
-            <span class="gallery-cap-num">03</span>
-            <span class="gallery-cap-label">Styling · Wellen</span>
-          </span>
-        </button>
-        <button class="gallery-tile gallery-tall" data-lb="3">
-          <img src="images/bridal-updo.png" alt="Hochsteckfrisur" loading="lazy" />
-          <span class="gallery-cap">
-            <span class="gallery-cap-num">04</span>
-            <span class="gallery-cap-label">Hochsteckfrisur</span>
-          </span>
-        </button>
-        <button class="gallery-tile gallery-normal" data-lb="4">
-          <img src="images/red-lips-curls.png" alt="Hollywood-Wellen" loading="lazy" />
-          <span class="gallery-cap">
-            <span class="gallery-cap-num">05</span>
-            <span class="gallery-cap-label">Hollywood-Wellen</span>
-          </span>
-        </button>
-        <button class="gallery-tile gallery-tall" data-lb="5">
-          <img src="images/bride-tiara-2.png" alt="Braut · Klassik" loading="lazy" />
-          <span class="gallery-cap">
-            <span class="gallery-cap-num">06</span>
-            <span class="gallery-cap-label">Braut · Klassik</span>
-          </span>
-        </button>
-      </div>
-
-      <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Galerie">
-        <button class="lightbox-close" id="lb-close" aria-label="Schließen">×</button>
-        <img id="lb-img" src="" alt="" />
-        <div class="lightbox-cap" id="lb-cap"></div>
+      <div class="gallery-placeholder">
+        <span class="eyebrow">Fotos folgen in Kürze</span>
+        <p>Wir aktualisieren die Galerie mit echten Aufnahmen aus unserem Salon. Schauen Sie bald wieder vorbei.</p>
       </div>
     </section>
 
     <!-- ── WEDDING ──────────────────────────────────────────────────────────── -->
     <section class="wedding" id="wedding">
       <div class="wedding-grid">
-        <div class="wedding-art">
-          <figure class="wedding-fig wedding-fig-1">
-            <img src="images/bridal-updo.png" alt="Brautstyling Hochsteckfrisur" />
-          </figure>
-          <figure class="wedding-fig wedding-fig-2">
-            <img src="images/bride-tiara-2.png" alt="Braut Studioporträt" />
-          </figure>
-          <div class="wedding-quote">
-            <span class="quote-mark">"</span>
-            Mein Tag begann bei Yüksel — und das war das Schönste daran.
-            <span class="quote-by">— Sarah K., Mai 2025</span>
-          </div>
-        </div>
-
-        <div class="wedding-copy">
+        <div class="wedding-copy wedding-copy-full">
           <span class="eyebrow">§ 04 · Hochzeit &amp; Events</span>
           <h2 class="section-title">
             Der wichtigste Tag<br>
@@ -374,11 +298,7 @@
     <!-- ── ABOUT ────────────────────────────────────────────────────────────── -->
     <section class="section about" id="about">
       <div class="about-grid">
-        <figure class="about-fig">
-          <img src="images/team.png" alt="Das Team von Mode Friseur Yüksel" />
-          <figcaption>Das Team · Ratschkygasse, 1120 Wien</figcaption>
-        </figure>
-        <div class="about-copy">
+        <div class="about-copy about-copy-full">
           <span class="eyebrow">§ 05 · Salon</span>
           <h2 class="section-title">
             Ein Friseur,<br>
@@ -575,40 +495,7 @@
       });
     });
 
-    // ── Gallery lightbox ────────────────────────────────────────────────────
-    const GALLERY_DATA = [
-      { src: 'images/bride-tiara.png',    label: 'Braut · Tiara' },
-      { src: 'images/three-ponytails.png', label: 'Event · Pferdeschwänze' },
-      { src: 'images/blonde-curls.png',   label: 'Styling · Wellen' },
-      { src: 'images/bridal-updo.png',    label: 'Hochsteckfrisur' },
-      { src: 'images/red-lips-curls.png', label: 'Hollywood-Wellen' },
-      { src: 'images/bride-tiara-2.png',  label: 'Braut · Klassik' },
-    ];
-
-    const lightbox   = document.getElementById('lightbox');
-    const lbImg      = document.getElementById('lb-img');
-    const lbCap      = document.getElementById('lb-cap');
-    const lbClose    = document.getElementById('lb-close');
-
-    document.querySelectorAll('.gallery-tile').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const i = parseInt(btn.dataset.lb, 10);
-        lbImg.src = GALLERY_DATA[i].src;
-        lbImg.alt = GALLERY_DATA[i].label;
-        lbCap.textContent = GALLERY_DATA[i].label;
-        lightbox.style.display = 'grid';
-        lightbox.setAttribute('aria-hidden', 'false');
-        document.body.style.overflow = 'hidden';
-      });
-    });
-
-    const closeLightbox = () => {
-      lightbox.style.display = 'none';
-      lightbox.setAttribute('aria-hidden', 'true');
-      document.body.style.overflow = '';
-    };
-    lbClose.addEventListener('click', closeLightbox);
-    lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+    // Gallery — временно отключена (фото ожидаются от заказчика)
 
     // ── Booking modal ───────────────────────────────────────────────────────
     const SERVICES_BOOK = [
@@ -657,10 +544,7 @@
     });
 
     document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') {
-        if (lightbox.style.display === 'grid') closeLightbox();
-        else if (shade.style.display === 'grid') closeModal();
-      }
+      if (e.key === 'Escape' && shade.style.display === 'grid') closeModal();
     });
 
     function canProceed() {
