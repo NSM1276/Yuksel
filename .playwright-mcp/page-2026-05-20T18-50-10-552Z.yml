@@ -1,0 +1,537 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "whatsmydns.net - DNS Propagation Checker" [ref=e7] [cursor=pointer]:
+        - /url: https://www.whatsmydns.net
+        - img "whatsmydns.net - DNS Propagation Checker" [ref=e8]
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - textbox "Query" [active] [ref=e15]:
+          - /placeholder: www.example.com
+          - text: modefriseuryuksel.at
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Record Type" [ref=e18]:
+              - option "A" [selected]
+              - option "AAAA"
+              - option "CNAME"
+              - option "MX"
+              - option "NS"
+              - option "PTR"
+              - option "SOA"
+              - option "SRV"
+              - option "TXT"
+              - option "CAA"
+            - generic:
+              - img
+          - button "Settings" [ref=e20] [cursor=pointer]:
+            - img [ref=e21]
+          - button "Search" [ref=e23] [cursor=pointer]:
+            - img [ref=e724]
+            - generic [ref=e27]: Search
+      - generic [ref=e28]:
+        - link "Donate" [ref=e29] [cursor=pointer]:
+          - /url: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dan%40mondodev%2enet&lc=US&item_name=whatsmydns%2enet&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
+        - link "Twitter" [ref=e30] [cursor=pointer]:
+          - /url: https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.whatsmydns.net%2F&related=whatsmydns&text=What%27s%20My%20DNS%3F%20Global%20DNS%20Propagation%20Checker&tw_p=tweetbutton&url=http%3A%2F%2Fwww.whatsmydns.net%2F&via=whatsmydns
+          - img [ref=e31]
+        - link "Facebook" [ref=e33] [cursor=pointer]:
+          - /url: https://www.facebook.com/sharer/sharer.php?u=https://www.whatsmydns.net/
+          - img [ref=e34]
+  - generic [ref=e38]:
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41] [cursor=pointer]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: San Jose CA, United States
+            - generic [ref=e47]: Corporate West
+          - code
+          - img [ref=e49]
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Dallas TX, United States
+            - generic [ref=e57]: Speakeasy
+          - code
+          - img [ref=e59]
+        - generic [ref=e61] [cursor=pointer]:
+          - generic [ref=e65]:
+            - generic [ref=e66]: Dothan AL, United States
+            - generic [ref=e67]: Comodo
+          - code
+          - img [ref=e726]
+        - generic [ref=e69] [cursor=pointer]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: Providence RI, United States
+            - generic [ref=e75]: Verizon
+          - code
+          - img [ref=e77]
+        - generic [ref=e79] [cursor=pointer]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: Boston MA, United States
+            - generic [ref=e85]: Speakeasy
+          - code
+          - img [ref=e87]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: London ON, Canada
+            - generic [ref=e95]: Golden Triangle
+          - code
+          - img [ref=e97]
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e103]:
+            - generic [ref=e104]: Mexico City, Mexico
+            - generic [ref=e105]: Total Play
+          - code
+          - img [ref=e728]
+        - generic [ref=e107] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Santa Cruz do Sul, Brazil
+            - generic [ref=e113]: Claro
+          - code
+          - img [ref=e115]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: Lille, France
+            - generic [ref=e123]: Completel SAS
+          - code
+          - img [ref=e125]
+        - generic [ref=e127] [cursor=pointer]:
+          - generic [ref=e131]:
+            - generic [ref=e132]: Diemen, Netherlands
+            - generic [ref=e133]: Tele2 Nederland
+          - code
+          - img [ref=e135]
+        - generic [ref=e137] [cursor=pointer]:
+          - generic [ref=e141]:
+            - generic [ref=e142]: Oberhausen, Germany
+            - generic [ref=e143]: Deutsche Telekom
+          - code
+          - img [ref=e145]
+        - generic [ref=e147] [cursor=pointer]:
+          - generic [ref=e151]:
+            - generic [ref=e152]: Cullinan, South Africa
+            - generic [ref=e153]: Liquid
+          - code
+          - img [ref=e155]
+        - generic [ref=e157] [cursor=pointer]:
+          - generic [ref=e161]:
+            - generic [ref=e162]: Antalya, Turkey
+            - generic [ref=e163]: Teknet Yazlim
+          - code
+          - img [ref=e730]
+        - generic [ref=e165] [cursor=pointer]:
+          - generic [ref=e169]:
+            - generic [ref=e170]: Tuymazy, Russia
+            - generic [ref=e171]: MTU Kristall JSC
+          - code
+          - img [ref=e173]
+        - generic [ref=e175] [cursor=pointer]:
+          - generic [ref=e179]:
+            - generic [ref=e180]: Rawalpindi, Pakistan
+            - generic [ref=e181]: CMPak
+          - code
+          - img [ref=e183]
+        - generic [ref=e185] [cursor=pointer]:
+          - generic [ref=e189]:
+            - generic [ref=e190]: Coimbatore, India
+            - generic [ref=e191]: Skylink Fibernet
+          - code
+          - img [ref=e732]
+        - generic [ref=e193] [cursor=pointer]:
+          - generic [ref=e197]:
+            - generic [ref=e198]: Bangkok, Thailand
+            - generic [ref=e199]: 3BB Broadband
+          - code
+          - img [ref=e201]
+        - generic [ref=e203] [cursor=pointer]:
+          - generic [ref=e207]:
+            - generic [ref=e208]: Kota Kinabalu, Malaysia
+            - generic [ref=e209]: TPMNet
+          - code
+          - img [ref=e211]
+        - generic [ref=e213] [cursor=pointer]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: Singapore, Singapore
+            - generic [ref=e219]: Tefincom
+          - code
+          - img [ref=e221]
+        - generic [ref=e223] [cursor=pointer]:
+          - generic [ref=e227]:
+            - generic [ref=e228]: Beijing, China
+            - generic [ref=e229]: CERNET
+          - code
+          - img [ref=e231]
+        - generic [ref=e233] [cursor=pointer]:
+          - generic [ref=e237]:
+            - generic [ref=e238]: Seoul, South Korea
+            - generic [ref=e239]: LG Dacom
+          - code
+          - img [ref=e241]
+        - generic [ref=e243] [cursor=pointer]:
+          - generic [ref=e247]:
+            - generic [ref=e248]: Adelaide SA, Australia
+            - generic [ref=e249]: Telstra
+          - code
+          - img [ref=e734]
+        - generic [ref=e251] [cursor=pointer]:
+          - generic [ref=e255]:
+            - generic [ref=e256]: Melbourne VIC, Australia
+            - generic [ref=e257]: Pacific Internet
+          - code
+          - img [ref=e259]
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - heading "DNS Propagation Checker" [level=1] [ref=e263]
+          - paragraph [ref=e264]: whatsmydns.net lets you instantly perform a DNS lookup to check a domain name's current IP address and DNS record information against multiple nameservers located in different parts of the world.
+        - img [ref=e269]:
+          - img [ref=e736] [cursor=pointer]
+          - img [ref=e739] [cursor=pointer]
+          - img [ref=e742] [cursor=pointer]
+          - img [ref=e745] [cursor=pointer]
+          - img [ref=e748] [cursor=pointer]
+          - img [ref=e751] [cursor=pointer]
+          - img [ref=e754] [cursor=pointer]
+          - img [ref=e757] [cursor=pointer]
+          - img [ref=e760] [cursor=pointer]
+          - img [ref=e763] [cursor=pointer]
+          - img [ref=e766] [cursor=pointer]
+          - img [ref=e769] [cursor=pointer]
+          - img [ref=e772] [cursor=pointer]
+          - img [ref=e775] [cursor=pointer]
+          - img [ref=e778] [cursor=pointer]
+          - img [ref=e781] [cursor=pointer]
+          - img [ref=e784] [cursor=pointer]
+          - img [ref=e787] [cursor=pointer]
+          - img [ref=e790] [cursor=pointer]
+          - img [ref=e793] [cursor=pointer]
+          - img [ref=e796] [cursor=pointer]
+          - img [ref=e799] [cursor=pointer]
+          - img [ref=e802] [cursor=pointer]
+    - generic [ref=e511]:
+      - heading "Global DNS Checker - How to check DNS propagation" [level=2] [ref=e512]
+      - paragraph [ref=e513]: whatsmydns.net is a free online tool that lets you quickly and easily perform a DNS lookup to check DNS propagation and see information of any domain from DNS servers located in many countries all around the world.
+      - paragraph [ref=e514]: You can test changes made to new or existing domains and see if they have been updated correctly without the need to manually query remote servers. This gives you immediate insight into how users globally may be resolving DNS records for your website, email or other online service.
+      - paragraph [ref=e515]:
+        - text: Many operating systems include
+        - link "DNS tools" [ref=e516] [cursor=pointer]:
+          - /url: /dns-tools.html
+        - text: to check DNS records manually for diagnosing problems. However, using these tools can be complicated and difficult to understand for non-technical people which is why the whatsmydns.net DNS checker was created to help with quickly checking DNS propagation.
+      - paragraph [ref=e517]: whatsmydns.net makes the process of performing global DNS checks easy by maintaining a range of DNS servers to perform lookups with. These results are then parsed and displayed on a map so that results are easier to understand at a glance. Individual lookup results can be seen in detail by selecting a server location from the list or clicking on the map markers once a search has been completed.
+      - heading "What is DNS and how does it work?" [level=2] [ref=e518]
+      - paragraph [ref=e519]:
+        - text: The Domain Name System (known as DNS) is a system used to convert a name (like
+        - code [ref=e520]: www.google.com
+        - text: ) into an IP address (like
+        - code [ref=e521]: 192.168.2.1
+        - text: ). These addresses are used by computers to communicate with each other on the internet. Most people find remembering names much easier than numbers, so DNS makes this process easy.
+      - paragraph [ref=e522]:
+        - text: When you visit a website, your computer, phone or tablet will first check your local DNS cache for the corresponding IP address. If your device has not recently looked up this website, then it will need to ask your configured DNS server which will forward the request on to the DNS server responsible for managing the records. This process is known as a
+        - link "DNS lookup" [ref=e523] [cursor=pointer]:
+          - /url: /dns-lookup
+        - text: request.
+      - paragraph [ref=e524]: Once the IP address is known, it is stored locally for a set period of time known as the Time To Live (TTL) and used to speed up future requests. Updated records will not be returned until this time has expired, this can often be the cause of why DNS changes do not appear to be working right away.
+      - heading "What is DNS propagation?" [level=2] [ref=e525]
+      - paragraph [ref=e526]: DNS propagation is the term commonly used to check the current state of DNS results globally and is often asked about when changes made to DNS zones do not appear to be working as expected. This process can take from only a few minutes, but often takes up to 48-72 hours and sometimes longer.
+      - paragraph [ref=e527]:
+        - text: While technically DNS does not propagate, this is the term that people have become familiar with. DNS requests are recursively forwarded and looked up from the locally used resolver to the authoritative name server on demand and then cached to speed up future lookup requests. For this reason, commonly used
+        - link "DNS servers" [ref=e528] [cursor=pointer]:
+          - /url: /dns
+        - text: of large network providers located around the world have been selected when performing DNS checks.
+      - paragraph [ref=e529]: For popular websites, DNS results may be cached for people in different parts of the world using many different recursive DNS resolvers. If you have recently made changes to your configuration, and the TTL has not yet expired, then some people may be receiving out of date results which could mean that they see an older version of your website.
+      - heading "How long does DNS propagation take?" [level=3] [ref=e530]
+      - paragraph [ref=e531]: How long DNS propagation takes usually depends on your records TTL setting. This can be anywhere from several minutes up to 48-72 hours or longer. However, there are sometimes other reasons for a long propagation time.
+      - paragraph [ref=e532]: "The main issues as to why DNS propagation can take so long are:"
+      - paragraph [ref=e533]:
+        - strong [ref=e534]: DNS Cache
+        - text: "- The Time to Live (TTL) is the duration in which DNS data is allowed to 'live' in the cache of a local device or DNS resolver. When this duration expires, the local device or server removes existing DNS information and carries out another DNS lookup to fetch new information. Higher TTL settings can often cause a delay in DNS propagation."
+      - paragraph [ref=e535]:
+        - strong [ref=e536]: Internet Service Providers
+        - text: "- Your ISP also caches DNS results, which allows for many users to access sites faster. For every website requested, they will ask the DNS server responsible only once but return the same result for many users. Some ISPs also overlook TTL rules, keeping a cached DNS record even if the TTL has expired. This can make DNS propagation take longer than it should."
+      - paragraph [ref=e537]:
+        - strong [ref=e538]: Other DNS Servers
+        - text: "- You may not be using your ISPs DNS server, if this is the case then the same issues that may be causing delays can still apply."
+      - paragraph [ref=e539]:
+        - strong [ref=e540]: Domain Name Registrar
+        - text: "- When changing web hosting or DNS providers for your domain, it is often also required to update your authoritative name servers. These changes will need to be reflected in the corresponding TLD nameserver for your domain name. For example, if you were to change the NS records for example.com, then the .com TLD nameserver would also need to update which can cause delays in DNS propagation."
+      - heading "How do you speed up DNS propagation?" [level=3] [ref=e541]
+      - paragraph [ref=e542]: A technique used to speed up DNS propagation and prevent a delay is to lower your DNS records TTL a few days in advance of making any changes so that when the change is made any old records expire more quickly. Unfortunately, most people who are having issues and trying to speed up DNS propagation only find this out after making changes and are wondering why they're not seeing instant results.
+      - paragraph [ref=e543]:
+        - text: If you have checked DNS globally, and are seeing different results locally then you may consider
+        - link "flushing your DNS cache" [ref=e544] [cursor=pointer]:
+          - /url: /flush-dns.html
+        - text: ", or using another"
+        - link "DNS server" [ref=e545] [cursor=pointer]:
+          - /url: /dns
+        - text: . As a last resort, manually overriding your local DNS entries in your systems
+        - link "hosts file" [ref=e546] [cursor=pointer]:
+          - /url: /hosts-file.html
+        - text: can also be done but should be considered a temporary measure and only works for certain record types.
+      - heading "What server types are used in a DNS check?" [level=2] [ref=e547]
+      - paragraph [ref=e548]: There are 4 different types of DNS servers involved when performing a DNS check. Each has a different role and may not be needed at all depending on the situation, having all these different server types is what contributes to DNS propagation issues.
+      - paragraph [ref=e549]:
+        - strong [ref=e550]: Recursive Resolver
+        - text: "- The DNS server your device communicates with is called the recursive resolver and is issued to you automatically by your ISP, but can be also configured on your router or individual devices. These DNS severs are ideally located in close geographical proximity to return results as fast as possible. These servers will cache a copy of the DNS results to speed up future DNS lookup requests."
+      - paragraph [ref=e551]:
+        - strong [ref=e552]: Root Name Server
+        - text: "- This type of DNS server is responsible for returning the IP address of the TLD (Top Level Domain) nameserver. For instance, if it is trying to resolve example.com, the root name server returns the IP of the TLD name server that runs .com domains."
+      - paragraph [ref=e553]:
+        - strong [ref=e554]: TLD Name Server
+        - text: "- This name server returns the authoritative name servers for each domain under the Top Level Domain it's responsible for. The .com TLD name server will return results for example.com but not example.org."
+      - paragraph [ref=e555]:
+        - strong [ref=e556]: Authoritative Name Server
+        - text: "- This stores DNS servers' configuration data for specific domain names."
+      - heading "What happens when a DNS request is made?" [level=2] [ref=e557]
+      - paragraph [ref=e558]:
+        - text: Below demonstrates the flow of events when a user requests to visit
+        - code [ref=e559]: www.example.com
+        - text: in their web browser for the first time and does not yet have cached results. As you can see, each step introduces the possibility of a DNS propagation delay.
+      - list [ref=e560]:
+        - listitem [ref=e561]:
+          - text: → You type
+          - code [ref=e562]: www.example.com
+          - text: into your web browser.
+        - listitem [ref=e563]:
+          - text: → Your device sends a request to your configured
+          - emphasis [ref=e564]: recursive resolver
+          - text: .
+        - listitem [ref=e565]:
+          - text: → The
+          - emphasis [ref=e566]: recursive resolver
+          - text: asks the
+          - emphasis [ref=e567]: root nameserver
+          - text: for the IP address of the
+          - emphasis [ref=e568]: TLD nameserver
+          - text: responsible for
+          - code [ref=e569]: .com
+          - text: domains.
+        - listitem [ref=e570]:
+          - text: ← The
+          - emphasis [ref=e571]: root nameserver
+          - text: returns the IP address of the
+          - emphasis [ref=e572]: .com TLD nameserver
+          - text: to the
+          - emphasis [ref=e573]: recursive resolver
+          - text: .
+        - listitem [ref=e574]:
+          - text: → The
+          - emphasis [ref=e575]: recursive resolver
+          - text: asks the
+          - emphasis [ref=e576]: .com TLD nameserver
+          - text: for the address of the
+          - emphasis [ref=e577]: authoritative nameserver
+          - text: responsible for
+          - code [ref=e578]: example.com
+          - text: .
+        - listitem [ref=e579]:
+          - text: ← The
+          - emphasis [ref=e580]: .com TLD nameserver
+          - text: returns the IP address of the
+          - emphasis [ref=e581]: authoritative nameserver
+          - text: to the
+          - emphasis [ref=e582]: recursive resolver
+          - text: .
+        - listitem [ref=e583]:
+          - text: → The
+          - emphasis [ref=e584]: recursive resolver
+          - text: asks the
+          - emphasis [ref=e585]: authoritative nameserver
+          - text: for the IP address of
+          - code [ref=e586]: www.example.com
+          - text: .
+        - listitem [ref=e587]:
+          - text: ← The
+          - emphasis [ref=e588]: authoritative nameserver
+          - text: returns the IP address of
+          - code [ref=e589]: www.example.com
+          - text: to the
+          - emphasis [ref=e590]: recursive resolver
+          - text: .
+        - listitem [ref=e591]:
+          - text: ← The
+          - emphasis [ref=e592]: recursive resolver
+          - text: returns IP address of
+          - code [ref=e593]: www.example.com
+          - text: to the browser.
+        - listitem [ref=e594]: → Your browser makes a web request directly to the resolved IP address.
+      - heading "Which DNS record types can be checked?" [level=2] [ref=e595]
+      - paragraph [ref=e596]: "You can check DNS propagation for common record types including:"
+      - list [ref=e597]:
+        - listitem [ref=e598]:
+          - link "A" [ref=e599] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/a-records
+          - text: "- The most common DNS record, used to point a domain to an IP address."
+        - listitem [ref=e600]:
+          - link "CNAME" [ref=e601] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/cname-records
+          - text: "- Also known as alias records, they point to other DNS records. Sometimes used for subdomains like www."
+        - listitem [ref=e602]:
+          - link "MX" [ref=e603] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/mx-records
+          - text: "- Mail Exchanger records are used set email servers and their priority."
+        - listitem [ref=e604]:
+          - link "NS" [ref=e605] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/ns-records
+          - text: "- Name Server records store the authoritative nameserver."
+        - listitem [ref=e606]:
+          - link "TXT" [ref=e607] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/txt-records
+          - text: "- Text records are commonly used for configuration settings such as SPF and DKIM records."
+      - paragraph [ref=e608]:
+        - text: "Additional types that can be checked which are usually used in more advanced configurations include:"
+        - link "AAAA" [ref=e609] [cursor=pointer]:
+          - /url: https://www.whatsmydns.net/dns-lookup/aaaa-records
+        - text: ","
+        - link "CAA" [ref=e610] [cursor=pointer]:
+          - /url: https://www.whatsmydns.net/dns-lookup/caa-records
+        - text: ","
+        - link "PTR" [ref=e611] [cursor=pointer]:
+          - /url: https://www.whatsmydns.net/dns-lookup/ptr-records
+        - text: ","
+        - link "SOA" [ref=e612] [cursor=pointer]:
+          - /url: https://www.whatsmydns.net/dns-lookup/soa-records
+        - text: and
+        - link "SRV" [ref=e613] [cursor=pointer]:
+          - /url: https://www.whatsmydns.net/dns-lookup/srv-records
+        - text: .
+      - heading "Make sure to check all your DNS records" [level=2] [ref=e614]
+      - paragraph [ref=e615]: When checking DNS records, there are often multiple record types that you need to verify are correct. For example, websites sometimes include www or other subdomains as either an A or CNAME record, and email servers use the MX record type.
+      - generic [ref=e616]:
+        - link "Check Another Record Type ↑" [ref=e617] [cursor=pointer]:
+          - /url: https://www.whatsmydns.net
+        - generic [ref=e618]: or
+        - link "Check Another Domain ↑" [ref=e619] [cursor=pointer]:
+          - /url: https://www.whatsmydns.net
+  - contentinfo [ref=e623]:
+    - generic [ref=e624]:
+      - generic [ref=e626]:
+        - term [ref=e627]: Support Me
+        - definition [ref=e628]: If you find this service useful for checking DNS propagation, please consider donating to help pay hosting costs and keeping the site up to date.
+        - definition [ref=e629]:
+          - link "Donate via PayPal" [ref=e630] [cursor=pointer]:
+            - /url: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dan%40mondodev%2enet&lc=US&item_name=whatsmydns%2enet&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
+      - generic [ref=e631]:
+        - generic [ref=e632]:
+          - term [ref=e633]:
+            - link "DNS Tools" [ref=e634] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns-tools.html
+          - definition [ref=e635]:
+            - link "DNS Checker" [ref=e636] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net
+          - definition [ref=e637]:
+            - link "DNS Lookup" [ref=e638] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns-lookup
+          - definition [ref=e639]:
+            - link "Reverse DNS Lookup" [ref=e640] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/reverse-dns-lookup
+          - definition [ref=e641]:
+            - link "What's My IP Address?" [ref=e642] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/whats-my-ip-address.html
+        - generic [ref=e643]:
+          - term [ref=e644]: DNS Guides
+          - definition [ref=e645]:
+            - link "DNS Security" [ref=e646] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns-security
+          - definition [ref=e647]:
+            - link "Flush DNS" [ref=e648] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/flush-dns.html
+          - definition [ref=e649]:
+            - link "Hosts File" [ref=e650] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/hosts-file.html
+      - generic [ref=e652]:
+        - term [ref=e653]:
+          - link "DNS Lookup" [ref=e654] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup
+        - definition [ref=e655]:
+          - link "A Record Lookup" [ref=e656] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/a-records
+        - definition [ref=e657]:
+          - link "AAAA Record Lookup" [ref=e658] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/aaaa-records
+        - definition [ref=e659]:
+          - link "CAA Record Lookup" [ref=e660] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/caa-records
+        - definition [ref=e661]:
+          - link "CNAME Record Lookup" [ref=e662] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/cname-records
+        - definition [ref=e663]:
+          - link "MX Record Lookup" [ref=e664] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/mx-records
+        - definition [ref=e665]:
+          - link "NS Record Lookup" [ref=e666] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/ns-records
+        - definition [ref=e667]:
+          - link "PTR Record Lookup" [ref=e668] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/ptr-records
+        - definition [ref=e669]:
+          - link "SOA Record Lookup" [ref=e670] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/soa-records
+        - definition [ref=e671]:
+          - link "SRV Record Lookup" [ref=e672] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/srv-records
+        - definition [ref=e673]:
+          - link "TXT Record Lookup" [ref=e674] [cursor=pointer]:
+            - /url: https://www.whatsmydns.net/dns-lookup/txt-records
+      - generic [ref=e675]:
+        - generic [ref=e676]:
+          - term [ref=e677]: Articles & Blog
+          - definition [ref=e678]:
+            - link "DNS Articles" [ref=e679] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/articles
+          - definition [ref=e680]:
+            - link "Development Blog" [ref=e681] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/blog
+        - generic [ref=e682]:
+          - term [ref=e683]:
+            - link "DNS Servers" [ref=e684] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns
+          - definition [ref=e685]:
+            - link "Global DNS Servers" [ref=e686] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns/global
+          - definition [ref=e687]:
+            - link "Australian DNS Servers" [ref=e688] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns/australia
+          - definition [ref=e689]:
+            - link "France DNS Servers" [ref=e690] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns/france
+          - definition [ref=e691]:
+            - link "New Zealand DNS Servers" [ref=e692] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns/new-zealand
+          - definition [ref=e693]:
+            - link "United Kingdom DNS Servers" [ref=e694] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns/uk
+          - definition [ref=e695]:
+            - link "United States DNS Servers" [ref=e696] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns/usa
+      - generic [ref=e697]:
+        - generic [ref=e698]:
+          - term [ref=e699]: Browser Extension
+          - definition [ref=e700]:
+            - link "Chrome" [ref=e701] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/dns-lookup/chrome
+            - generic [ref=e702]:
+              - img [ref=e703]
+              - text: new
+        - generic [ref=e705]:
+          - term [ref=e706]: Social Media
+          - definition [ref=e707]:
+            - link "Twitter" [ref=e708] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.whatsmydns.net%2F&related=whatsmydns&text=What%27s%20My%20DNS%3F%20Global%20DNS%20Propagation%20Checker&tw_p=tweetbutton&url=http%3A%2F%2Fwww.whatsmydns.net%2F&via=whatsmydns
+              - img [ref=e709]
+            - link "Facebook" [ref=e711] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https://www.whatsmydns.net/
+              - img [ref=e712]
+        - generic [ref=e714]:
+          - term [ref=e715]: Contact
+          - definition [ref=e716]:
+            - text: "Email:"
+            - link "info@whatsmydns.net" [ref=e717] [cursor=pointer]:
+              - /url: mailto:info@whatsmydns.net
+          - definition [ref=e718]:
+            - text: "Twitter:"
+            - link "@whatsmydns" [ref=e719] [cursor=pointer]:
+              - /url: https://twitter.com/whatsmydns
+        - generic [ref=e720]:
+          - term [ref=e721]: Legal
+          - definition [ref=e722]:
+            - link "Privacy Policy" [ref=e723] [cursor=pointer]:
+              - /url: https://www.whatsmydns.net/privacy-policy.html

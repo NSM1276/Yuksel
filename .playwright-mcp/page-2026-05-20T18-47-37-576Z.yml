@@ -1,0 +1,260 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "M·F Mode Friseur Yüksel · Wien" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]: M·F
+        - generic [ref=e6]:
+          - generic [ref=e7]: Mode Friseur
+          - generic [ref=e8]: Yüksel · Wien
+      - navigation "Hauptnavigation" [ref=e9]:
+        - link "Leistungen" [ref=e10] [cursor=pointer]:
+          - /url: "#services"
+        - link "Galerie" [ref=e11] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "Hochzeit" [ref=e12] [cursor=pointer]:
+          - /url: "#wedding"
+        - link "Salon" [ref=e13] [cursor=pointer]:
+          - /url: "#about"
+        - link "Kontakt" [ref=e14] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e15]:
+        - link "01 8179130" [ref=e16] [cursor=pointer]:
+          - /url: tel:+4318179130
+          - text: 01 8179130
+        - button "Termin buchen" [ref=e18] [cursor=pointer]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: Salon · 1120 Wien Meidling
+          - heading "Ihr Friseur in Wien Meidling." [level=1] [ref=e25]
+          - paragraph [ref=e26]: Für Alltag & besondere Anlässe — ehrliches Handwerk, persönliche Beratung, Ergebnisse, die zu Ihnen passen.
+          - generic [ref=e27]:
+            - button "Termin buchen" [ref=e28] [cursor=pointer]:
+              - text: Termin buchen
+              - img [ref=e29]
+            - link "Anrufen · 01 8179130" [ref=e31] [cursor=pointer]:
+              - /url: tel:+4318179130
+              - img [ref=e32]
+              - text: Anrufen · 01 8179130
+          - list [ref=e34]:
+            - listitem [ref=e35]:
+              - strong [ref=e36]: Mo–Fr
+              - text: 09:00 – 18:30
+            - listitem [ref=e37]:
+              - strong [ref=e38]: Sa
+              - text: 09:00 – 16:00
+            - listitem [ref=e39]:
+              - strong [ref=e40]: So
+              - text: Geschlossen
+        - generic [ref=e41]:
+          - generic [ref=e42]: 25+
+          - generic [ref=e43]:
+            - text: Jahre
+            - text: im Bezirk
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - emphasis [ref=e47]: Damen & Styling
+          - emphasis [ref=e49]: Herren
+          - emphasis [ref=e51]: Brows · Lashes · Nails
+          - emphasis [ref=e53]: Hochzeit & Events
+          - emphasis [ref=e55]: Färben & Strähnen
+        - generic [ref=e57]:
+          - emphasis [ref=e58]: Damen & Styling
+          - emphasis [ref=e60]: Herren
+          - emphasis [ref=e62]: Brows · Lashes · Nails
+          - emphasis [ref=e64]: Hochzeit & Events
+          - emphasis [ref=e66]: Färben & Strähnen
+        - generic [ref=e68]:
+          - emphasis [ref=e69]: Damen & Styling
+          - emphasis [ref=e71]: Herren
+          - emphasis [ref=e73]: Brows · Lashes · Nails
+          - emphasis [ref=e75]: Hochzeit & Events
+          - emphasis [ref=e77]: Färben & Strähnen
+        - generic [ref=e79]:
+          - emphasis [ref=e80]: Damen & Styling
+          - emphasis [ref=e82]: Herren
+          - emphasis [ref=e84]: Brows · Lashes · Nails
+          - emphasis [ref=e86]: Hochzeit & Events
+          - emphasis [ref=e88]: Färben & Strähnen
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: § 02 · Leistungen
+        - heading "Vier Bereiche. Ein vertrauter Salon." [level=2] [ref=e93]:
+          - text: Vier Bereiche.
+          - text: Ein vertrauter Salon.
+        - paragraph [ref=e94]: Wir nehmen uns Zeit. Erst hören wir zu, dann beraten wir, dann arbeiten wir. Jeder Termin beginnt mit einem ehrlichen Gespräch über Pflegezustand, Alltag und Wunschergebnis.
+      - generic [ref=e95]:
+        - article [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: "01"
+            - heading "Damen & Styling" [level=3] [ref=e99]
+            - paragraph [ref=e100]: Schnitt, Föhnstyling, Färben, Strähnen, Pflege.
+            - button "Termin anfragen" [ref=e101] [cursor=pointer]:
+              - text: Termin anfragen
+              - img [ref=e102]
+        - article [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: "02"
+            - heading "Herren" [level=3] [ref=e107]
+            - paragraph [ref=e108]: Klassischer Herrenschnitt, Bart, Trockenhaarschnitt.
+            - button "Termin anfragen" [ref=e109] [cursor=pointer]:
+              - text: Termin anfragen
+              - img [ref=e110]
+        - article [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: "03"
+            - heading "Beauty" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Brows, Lashes, Nails — gepflegt, nicht überzeichnet.
+            - button "Termin anfragen" [ref=e117] [cursor=pointer]:
+              - text: Termin anfragen
+              - img [ref=e118]
+        - article [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: "04"
+            - heading "Hochzeit & Events" [level=3] [ref=e123]
+            - paragraph [ref=e124]: Brautstyling, Probetermin, Make-up und Frisur am großen Tag.
+            - button "Termin anfragen" [ref=e125] [cursor=pointer]:
+              - text: Termin anfragen
+              - img [ref=e126]
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: § 03 · Galerie
+          - heading "Echte Arbeiten aus unserem Salon." [level=2] [ref=e132]:
+            - text: Echte Arbeiten
+            - text: aus unserem Salon.
+        - paragraph [ref=e133]: Keine Stockbilder. Jedes Foto entstand bei uns in der Ratschkygasse — mit echten Kundinnen, an echten Tagen.
+      - generic [ref=e134]:
+        - generic [ref=e135]: Fotos folgen in Kürze
+        - paragraph [ref=e136]: Wir aktualisieren die Galerie mit echten Aufnahmen aus unserem Salon. Schauen Sie bald wieder vorbei.
+    - generic [ref=e139]:
+      - generic [ref=e140]: § 04 · Hochzeit & Events
+      - heading "Der wichtigste Tag verdient Ruhe." [level=2] [ref=e141]:
+        - text: Der wichtigste Tag
+        - text: verdient Ruhe.
+      - paragraph [ref=e142]: Probetermin, Zeitplan, Frisur und Make-up — wir nehmen Ihnen die Anspannung, damit Sie den Morgen genießen können. Auf Wunsch kommen wir zu Ihnen.
+      - list [ref=e143]:
+        - listitem [ref=e144]:
+          - generic [ref=e145]: "1"
+          - generic [ref=e146]:
+            - heading "Beratung" [level=4] [ref=e147]
+            - paragraph [ref=e148]: 20 Minuten, kostenlos. Wir sprechen über Kleid, Stil und Tagesablauf.
+        - listitem [ref=e149]:
+          - generic [ref=e150]: "2"
+          - generic [ref=e151]:
+            - heading "Probetermin" [level=4] [ref=e152]
+            - paragraph [ref=e153]: Komplettes Styling im Salon — Sie nehmen es mit nach Hause & entscheiden in Ruhe.
+        - listitem [ref=e154]:
+          - generic [ref=e155]: "3"
+          - generic [ref=e156]:
+            - heading "Der Tag selbst" [level=4] [ref=e157]
+            - paragraph [ref=e158]: Im Salon oder bei Ihnen zu Hause. Wir kommen pünktlich, mit allem, was wir brauchen.
+      - generic [ref=e159]:
+        - button "Probetermin anfragen" [ref=e160] [cursor=pointer]
+        - link "Lieber kurz anrufen" [ref=e161] [cursor=pointer]:
+          - /url: tel:+4318179130
+    - generic [ref=e164]:
+      - generic [ref=e165]: § 05 · Salon
+      - heading "Ein Friseur, der bleibt." [level=2] [ref=e166]:
+        - text: Ein Friseur,
+        - text: der bleibt.
+      - paragraph [ref=e167]: Wir sind ein Familienbetrieb in Meidling — mit Stammkundinnen, die seit über zwanzig Jahren zu uns kommen, und neuen Gesichtern, die am gleichen Tag gerne wiederkommen.
+      - paragraph [ref=e168]: "Was uns wichtig ist: ehrliche Beratung statt Verkaufsdruck, Pflege, die zu Ihrem Alltag passt, und faire Preise — Meidling-fair, nicht Innenstadt-fair."
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - generic [ref=e171]: 12k+
+          - generic [ref=e172]: Termine seit Eröffnung
+        - generic [ref=e173]:
+          - generic [ref=e174]: "5"
+          - generic [ref=e175]: Stylist:innen im Team
+        - generic [ref=e176]:
+          - generic [ref=e177]: 4,9
+          - generic [ref=e178]: ★ Google · 280 Bewertungen
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - generic [ref=e182]: § 06 · Kontakt
+        - heading "Vorbeikommen oder kurz anrufen." [level=2] [ref=e183]:
+          - text: Vorbeikommen oder
+          - text: kurz anrufen.
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - term [ref=e186]: Adresse
+            - definition [ref=e187]:
+              - text: Ratschkygasse 6
+              - text: 1120 Wien · Meidling
+          - generic [ref=e188]:
+            - term [ref=e189]: Telefon
+            - definition [ref=e190]:
+              - link "01 8179130" [ref=e191] [cursor=pointer]:
+                - /url: tel:+4318179130
+          - generic [ref=e192]:
+            - term [ref=e193]: Öffnungszeiten
+            - definition [ref=e194]:
+              - generic [ref=e195]: Mo–Fr 09:00 – 18:30
+              - generic [ref=e196]: Sa 09:00 – 16:00
+              - generic [ref=e197]: So Geschlossen
+          - generic [ref=e198]:
+            - term [ref=e199]: Anfahrt
+            - definition [ref=e200]:
+              - text: U6 Niederhofstraße · 4 Min. zu Fuß
+              - text: Linie 8 & 62 in der Nähe
+        - generic [ref=e201]:
+          - button "Termin buchen" [ref=e202] [cursor=pointer]
+          - link "Anrufen" [ref=e203] [cursor=pointer]:
+            - /url: tel:+4318179130
+      - img "Kartenausschnitt Ratschkygasse 6, 1120 Wien" [ref=e204]:
+        - img [ref=e205]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: RATSCHKYGASSE
+            - generic [ref=e219]: SCHÖNBRUNNER STR.
+            - generic [ref=e220]: NIEDERHOFSTRASSE
+          - generic [ref=e222]: Park
+          - generic [ref=e226]: "N"
+        - generic:
+          - generic:
+            - strong: Mode Friseur Yüksel
+            - text: Ratschkygasse 6, 1120 Wien
+        - generic [ref=e227]: Karte · 1120 Wien · Meidling
+  - contentinfo [ref=e228]:
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - generic [ref=e231]: M·F
+        - generic [ref=e232]:
+          - generic [ref=e233]: Mode Friseur Yüksel
+          - generic [ref=e234]: Friseur · Beauty · Brautstyling
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - heading "Salon" [level=5] [ref=e237]
+          - link "Leistungen" [ref=e238] [cursor=pointer]:
+            - /url: "#services"
+          - link "Galerie" [ref=e239] [cursor=pointer]:
+            - /url: "#gallery"
+          - link "Hochzeit" [ref=e240] [cursor=pointer]:
+            - /url: "#wedding"
+          - link "Über uns" [ref=e241] [cursor=pointer]:
+            - /url: "#about"
+        - generic [ref=e242]:
+          - heading "Kontakt" [level=5] [ref=e243]
+          - link "01 8179130" [ref=e244] [cursor=pointer]:
+            - /url: tel:+4318179130
+          - generic [ref=e245]: Ratschkygasse 6
+          - generic [ref=e246]: 1120 Wien
+        - generic [ref=e247]:
+          - heading "Folgen" [level=5] [ref=e248]
+          - link "Instagram" [ref=e249] [cursor=pointer]:
+            - /url: "#"
+          - link "Google" [ref=e250] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e251] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e252]:
+      - generic [ref=e253]: © 2026 Mode Friseur Yüksel
+      - generic [ref=e254]: Made in Meidling · Wien XII
+      - generic [ref=e255]:
+        - link "Impressum" [ref=e256] [cursor=pointer]:
+          - /url: "#"
+        - text: ·
+        - link "Datenschutz" [ref=e257] [cursor=pointer]:
+          - /url: "#"

@@ -22,29 +22,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <style>
-    /* ── No-photo overrides ─────────────────────────────────────────────── */
-    .hero-grid { grid-template-columns: 1fr; max-width: 780px; min-height: auto; }
-    .hero-copy { padding-bottom: 0; }
-    .hero-stat-inline {
-      display: inline-flex; align-items: baseline; gap: 8px;
-      margin-top: 40px;
-      background: var(--ink); color: var(--paper);
-      padding: 16px 24px;
-    }
-    .hero-stat-inline .hero-stat-num { font-size: 40px; }
-    .hero-stat-inline .hero-stat-label { font-size: 12px; }
-    .service-card.no-img { grid-template-columns: 1fr; }
-    .service-card.is-accent.no-img { grid-template-columns: 1fr; }
     .gallery-placeholder {
       margin-top: 64px; padding: 64px 40px;
       border: 1px solid var(--ink-10); text-align: center;
       display: flex; flex-direction: column; align-items: center; gap: 16px;
     }
     .gallery-placeholder p { color: var(--ink-80); max-width: 44ch; margin: 0; font-size: 17px; line-height: 1.55; }
-    .wedding-grid { grid-template-columns: 1fr; }
-    .wedding-copy-full { max-width: 720px; }
-    .about-grid { grid-template-columns: 1fr; }
-    .about-copy-full { max-width: 720px; }
   </style>
 </head>
 <body>
@@ -126,10 +109,19 @@
           </ul>
         </div>
 
-        <div class="hero-stat hero-stat-inline">
+      <div class="hero-media">
+        <figure class="hero-figure-main">
+          <img src="images/hero.jpg" alt="Mode Friseur Yüksel — Salon in Wien Meidling" loading="eager" />
+          <figcaption>
+            <span class="cap-num">25+</span>
+            <span class="cap-text">Jahre in Meidling</span>
+          </figcaption>
+        </figure>
+        <div class="hero-stat">
           <div class="hero-stat-num">25<span>+</span></div>
           <div class="hero-stat-label">Jahre<br>im Bezirk</div>
         </div>
+      </div>
       </div>
 
       <div class="ticker" aria-hidden="true">
@@ -182,7 +174,10 @@
       </header>
 
       <div class="service-grid">
-        <article class="service-card no-img">
+        <article class="service-card">
+          <div class="service-media">
+            <img src="images/damen.jpg" alt="Damen Styling — Mode Friseur Yüksel Wien" loading="lazy" />
+          </div>
           <div class="service-body">
             <div class="service-num">01</div>
             <h3 class="service-title">Damen &amp; Styling</h3>
@@ -196,7 +191,10 @@
           </div>
         </article>
 
-        <article class="service-card no-img">
+        <article class="service-card">
+          <div class="service-media">
+            <img src="images/herren.jpg" alt="Herrenschnitt — Mode Friseur Yüksel Wien" loading="lazy" />
+          </div>
           <div class="service-body">
             <div class="service-num">02</div>
             <h3 class="service-title">Herren</h3>
@@ -210,7 +208,10 @@
           </div>
         </article>
 
-        <article class="service-card no-img">
+        <article class="service-card">
+          <div class="service-media">
+            <img src="images/beauty.jpg" alt="Beauty — Brows, Lashes, Nails" loading="lazy" />
+          </div>
           <div class="service-body">
             <div class="service-num">03</div>
             <h3 class="service-title">Beauty</h3>
@@ -224,7 +225,10 @@
           </div>
         </article>
 
-        <article class="service-card is-accent no-img">
+        <article class="service-card is-accent">
+          <div class="service-media">
+            <img src="images/hochzeit-card.jpg" alt="Hochzeit &amp; Brautstyling — Mode Friseur Yüksel" loading="lazy" />
+          </div>
           <div class="service-body">
             <div class="service-num">04</div>
             <h3 class="service-title">Hochzeit &amp; Events</h3>
@@ -265,7 +269,12 @@
     <!-- ── WEDDING ──────────────────────────────────────────────────────────── -->
     <section class="wedding" id="wedding">
       <div class="wedding-grid">
-        <div class="wedding-copy wedding-copy-full">
+        <div class="wedding-art">
+          <figure class="wedding-fig">
+            <img src="images/wedding.jpg" alt="Brautstyling — Mode Friseur Yüksel Wien" loading="lazy" />
+          </figure>
+        </div>
+        <div class="wedding-copy">
           <span class="eyebrow">§ 04 · Hochzeit &amp; Events</span>
           <h2 class="section-title">
             Der wichtigste Tag<br>
@@ -310,7 +319,11 @@
     <!-- ── ABOUT ────────────────────────────────────────────────────────────── -->
     <section class="section about" id="about">
       <div class="about-grid">
-        <div class="about-copy about-copy-full">
+        <figure class="about-fig">
+          <img src="images/about.jpg" alt="Unser Salon — Mode Friseur Yüksel Ratschkygasse 6, Wien" loading="lazy" />
+          <figcaption>Ratschkygasse 6 · 1120 Wien · Meidling</figcaption>
+        </figure>
+        <div class="about-copy">
           <span class="eyebrow">§ 05 · Salon</span>
           <h2 class="section-title">
             Ein Friseur,<br>

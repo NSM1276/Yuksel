@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "Bash(gh repo *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)",
+      "Bash(git ls-tree *)",
+      "Bash(git checkout *)",
+      "Bash(git reset *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__23aaacb8-38bf-49f4-a637-14396beb51e3__list_teams",
+      "mcp__23aaacb8-38bf-49f4-a637-14396beb51e3__list_projects",
+      "mcp__23aaacb8-38bf-49f4-a637-14396beb51e3__list_deployments",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git commit -m 'Добавлена OG-карточка для WhatsApp/соцсетей *)",
+      "Bash(ls \"C:\\\\Users\\\\User\\\\Downloads\\\\salon-photos\")"
+    ]
+  }
+}

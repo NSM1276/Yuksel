@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: M · F
+    - generic [ref=e5]: Wien · Meidling
+  - generic [ref=e6]:
+    - generic [ref=e7]: Friseur & Beauty · Seit 25 Jahren
+    - heading "Mode Friseur Yüksel." [level=1] [ref=e8]:
+      - text: Mode Friseur
+      - emphasis [ref=e9]: Yüksel.
+    - generic [ref=e10]: Ratschkygasse 6 · 1120 Wien · Termin online buchen
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: Damen
+      - generic [ref=e15]: Herren
+      - generic [ref=e17]: Beauty
+      - generic [ref=e19]: Hochzeit
+    - generic [ref=e20]: www.modefriseuryuksel.at
