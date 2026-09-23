@@ -315,7 +315,8 @@ button { font-family: inherit; cursor: pointer; }
   overflow: hidden;
   background: var(--paper-2);
 }
-.hero-figure-main img { width: 100%; height: 100%; object-fit: cover; }
+.hero-figure-main img,
+.hero-figure-main video { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; display: block; }
 .hero-figure-main figcaption {
   position: absolute; left: 16px; bottom: 16px; right: 16px;
   display: flex; align-items: center; gap: 12px;
